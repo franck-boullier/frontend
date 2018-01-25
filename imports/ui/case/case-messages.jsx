@@ -121,8 +121,8 @@ class CaseMessages extends Component {
     }
     return [
       (<Subheader style={subheaderStyle} className='flex' key='0'>
-        <div className={subheaderBoxClasses + ' br'}>Case: #{id}</div>
-        <div className={subheaderBoxClasses + ' br'}>Status: {bug_status}</div>
+        <div className={subheaderBoxClasses + ' br'}>Case #{id}</div>
+        <div className={subheaderBoxClasses + ' br'}>{status}</div>
         <div className={subheaderBoxClasses + ' flex items-center justify-center'} onClick={this.props.onMoreInfo}>
           <FontIcon className='material-icons' style={infoIconStyle}>info</FontIcon>More info
         </div>
