@@ -110,7 +110,7 @@ class CaseMessages extends Component {
     )
   }
 
-  renderTitle ({ id, priority, cf_ipi_clust_1_next_step: nextSteps, cf_ipi_clust_1_solution: solution }) {
+  renderTitle ({ id, status, cf_ipi_clust_1_next_step: nextSteps, cf_ipi_clust_1_solution: solution }) {
     const subheaderBoxClasses = 'flex-grow tc b--gray-93'
     const additionalSubheaders = []
     if (nextSteps) {
